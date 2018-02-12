@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general">
+        <SwitchPreference
+                android:key="create_sub_directory"
+                android:title="@string/create_sub_directory"
+                android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/filter">
+        <SwitchPreference
+                android:key="use_filter"
+                android:title="@string/use_filter"
+                android:defaultValue="true" />
+        <EditTextPreference
+                android:key="min_image_width"
+                android:title="@string/min_image_width"
+                android:defaultValue="256"
+                android:inputType="number"
+                android:maxLength="5" />
+        <EditTextPreference
+                android:key="min_image_height"
+                android:title="@string/min_image_height"
+                android:defaultValue="256"
+                android:inputType="number"
+                android:maxLength="5"/>
+    </PreferenceCategory>
+</PreferenceScreen>

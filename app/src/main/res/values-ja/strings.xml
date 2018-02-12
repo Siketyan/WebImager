@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string name="app_name">WebImager</string>
+    <string name="title_activity_main">WebImager</string>
+
+    <string name="uri">URI</string>
+    <string name="uri_hint">https://example.com/sample.html</string>
+
+    <string name="go">開始</string>
+    <string name="ok">OK</string>
+
+    <string name="scanning">画像をスキャンしています…</string>
+    <string name="downloading">ダウンロードしています…</string>
+    <string name="success">完了しました！</string>
+
+    <string name="error_scanning">画像のスキャンに失敗しました。</string>
+    <string name="error_downloading">ダウンロードに失敗しました。</string>
+
+    <string name="settings">設定</string>
+    <string name="general">一般</string>
+    <string name="create_sub_directory">サブディレクトリを作成する</string>
+    <string name="filter">フィルタ</string>
+    <string name="use_filter">フィルタを使う</string>
+    <string name="min_image_width">画像の最小の幅 (px)</string>
+    <string name="min_image_height">画像の最小の高さ (px)</string>
+</resources>
